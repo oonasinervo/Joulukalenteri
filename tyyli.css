@@ -1,0 +1,43 @@
+body {
+    background-image: url(christmas-1869902.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 { font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: black;
+    text-align: center;
+}
+
+.luukut1 { margin-left: 600px;
+            margin-top: 60px;
+}
+
+.luukut2 { margin-left: 650px;
+}
+
+.luukut3 { margin-left: 700px;
+}
+
+.luukut4 { margin-left: 750px;
+}
+
+/* tablettinäyttö */
+@media (min-width:300px){
+    h1 {font-size:30px;} 
+    main {padding: 5px;}
+      }
+
+/* iso näyttö */
+@media (min-width:800px){
+    h1 {font-size:42px;}
+    h2 {font-size:25px;}
+    main {padding: 10px 40px 40px 40px;}
+   
+    }
+
+@media (max-width:1200px){
+    article {margin-top: 0px}
+}
